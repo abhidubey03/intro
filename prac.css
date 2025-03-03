@@ -1,0 +1,80 @@
+nav ul li{
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: bolder;;
+
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 25px ;
+
+
+    .nav .brand::after {
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #f44336;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+    .nav .brand:hover::after {
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        height: 50px;
+        background-color: rgba(138,23,236);
+        color: white;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+    
+    <div class="text-box">
+        <button class="button">Customer Order Here</button>
+
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="cab.css">
+
+<body> 
+    <nav>
+        <ul>
+            <li class="brand"><img src="image/nescafe-logo-png-transparent.png" alt="Portfolio"></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Reviews</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="class">
+        <h1>TASTE AROMATIC</h1><br>
+        <h2>COFFEE IN OUR SHOP</h2><br>
+        <P>Coffee is the common man's gold, and like gold,<br>it brings to every person the feeling of luxury and nobility.</P>
+
+        <button>Order Now</button>
+    </div>
+    <!-- script -->
+    <script src="ayu.js"></script>
+</body>
+
+</html>
